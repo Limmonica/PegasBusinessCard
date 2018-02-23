@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- SUB-PARENT LAYOUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- LOGO COMPANY -->
+        <ImageView
+            style="@style/LogoStyle"
+            android:contentDescription="@string/content_desc_logo"
+            android:src="@drawable/ic_logo_pegas_red" />
+
+        <!-- SLIDER IMAGES -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            style="@style/ViewPagerStyle" />
+
+        <!-- COMPANY SLOGAN 1 -->
+        <TextView
+            style="@style/SloganStyle"
+            android:text="@string/slogan_1"
+            android:textColor="@color/text_color_primary" />
+
+        <!-- COMPANY SLOGAN 2 -->
+        <TextView
+            style="@style/SloganStyle"
+            android:paddingBottom="@dimen/space_16dp"
+            android:text="@string/slogan_2"
+            android:textColor="@color/colorAccent" />
+
+        <!-- COMPANY STORY -->
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorAccent"
+            card_view:cardMaxElevation="@dimen/max_elevation"
+            card_view:contentPadding="@dimen/space_16dp">
+
+            <!-- LAYOUT: COMPANY STORY -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TITLE: COMPANY STORY -->
+                <TextView
+                    style="@style/Titles"
+                    android:text="@string/title_about" />
+
+                <!-- CONTENT: COMPANY STORY -->
+                <TextView
+                    style="@style/Content"
+                    android:text="@string/presentation" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- COMPANY CONTACT DETAILS -->
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorAccent"
+            card_view:cardMaxElevation="@dimen/max_elevation"
+            card_view:contentPadding="@dimen/space_16dp">
+
+            <!-- LAYOUT: COMPANY ADDRESS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TITLE: ADDRESS DETAILS -->
+                <TextView
+                    style="@style/Titles"
+                    android:text="@string/address_title" />
+
+                <!-- SUB-LAYOUT: COMPANY ADDRESS -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- TEXT ADDRESS -->
+                    <TextView
+                        style="@style/Content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/address_content" />
+
+                    <!-- BUTTON ADDRESS -->
+                    <Button
+                        android:id="@+id/address_map"
+                        style="@style/Buttons"
+                        android:drawableLeft="@drawable/ic_pin_drop_24"
+                        android:text="@string/directions"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+
+                <!-- TITLE: PHONE NUMBER -->
+                <TextView
+                    style="@style/Titles"
+                    android:layout_marginTop="@dimen/space_16dp"
+                    android:text="@string/phone_title" />
+
+                <!-- SUB-LAYOUT: COMPANY PHONE -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- PHONE NUMBER -->
+                    <TextView
+                        style="@style/Content"
+                        android:layout_width="0dp"
+                        android:layout_weight="@dimen/weight_1"
+                        android:text="@string/phone" />
+
+                    <!-- BUTTON PHONE -->
+                    <Button
+                        android:id="@+id/phone"
+                        style="@style/Buttons"
+                        android:drawableLeft="@drawable/ic_phone_24"
+                        android:text="@string/call"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+
+                <!-- TITLE: WEBSITE-->
+                <TextView
+                    style="@style/Titles"
+                    android:layout_marginTop="@dimen/space_16dp"
+                    android:text="@string/website_title" />
+
+                <!-- SUB-LAYOUT: COMPANY WEBSITE -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- WEBSITE URL -->
+                    <TextView
+                        style="@style/Content"
+                        android:layout_width="0dp"
+                        android:layout_weight="@dimen/weight_1"
+                        android:text="@string/url" />
+
+                    <!-- BUTTON WEBSITE -->
+                    <Button
+                        android:id="@+id/website"
+                        style="@style/Buttons"
+                        android:drawableLeft="@drawable/ic_public_24"
+                        android:text="@string/visit"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- COMPANY SOCIAL PRESENCE -->
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorAccent"
+            card_view:cardMaxElevation="@dimen/max_elevation"
+            card_view:contentPadding="@dimen/space_16dp">
+
+            <!-- LAYOUT: SOCIAL NETWORKS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TITLE: SOCIAL -->
+                <TextView
+                    style="@style/Titles"
+                    android:text="@string/get_social" />
+
+                <!-- SUB-LAYOUT: SOCIAL ICONS -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!-- FACEBOOK ICON -->
+                    <ImageView
+                        android:id="@+id/facebook"
+                        style="@style/Social"
+                        android:contentDescription="@string/social_facebook"
+                        android:src="@drawable/ic_facebook_48" />
+
+                    <!-- INSTAGRAM ICON -->
+                    <ImageView
+                        android:id="@+id/instagram"
+                        style="@style/Social"
+                        android:contentDescription="@string/social_instagram"
+                        android:src="@drawable/ic_instagram_48" />
+
+                    <!-- YOUTUBE ICON -->
+                    <ImageView
+                        android:id="@+id/youtube"
+                        style="@style/Social"
+                        android:contentDescription="@string/social_youtube"
+                        android:src="@drawable/ic_youtube_48" />
+
+                    <!-- TWITTER ICON -->
+                    <ImageView
+                        android:id="@+id/twitter"
+                        style="@style/Social"
+                        android:contentDescription="@string/social_twitter"
+                        android:src="@drawable/ic_twitter_48" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

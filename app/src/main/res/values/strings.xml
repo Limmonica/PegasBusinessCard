@@ -1,0 +1,63 @@
+<resources>
+    <!-- XML strings -->
+    <!-- Title of the app [CHAR LIMIT=12] -->
+    <string name="app_name">PegasBusinessCard</string>
+    <!-- Description of the slider [CHAR LIMIT=NONE] -->
+    <string name="content_desc_slider">Images Slider</string>
+    <!-- Description of the logo image [CHAR LIMIT=NONE] -->
+    <string name="content_desc_logo">Logo Pegas</string>
+    <!-- Text displayed as the slogan of the header section [CHAR LIMIT = 20] -->
+    <string name="slogan_1">Created in 1972</string>
+    <!-- Text displayed as the slogan of the header section [CHAR LIMIT = 20] -->
+    <string name="slogan_2">Reinvented in 2012</string>
+    <!-- Text displayed as the title of the About section [CHAR LIMIT=20] -->
+    <string name="title_about">The Story of Pegas Bicycle</string>
+    <!-- Text displayed as the content of the About section [CHAR LIMIT=NONE] -->
+    <string name="presentation"> It started with a bicycle frame built in a weapons factory in Zărnești. \n\nIts design was inspired from the American and British motorcycles, which in turn mimic the style of a motorcycle chopper. \n\nThe Pegasus silhouette, with its long saddle and horns, would become the word <b><i>bicycle</i></b> for thousands of children in the communist Romania. And a little more. An object worship, perhaps the one who defines the word <b><i>childhood</i></b> for all those who have learned to ride a bicycle between the 1970s and the 1980s. \n\nAfter 1989, <b>Pegas</b> disappeared from the market. \n\n20 years later, the <b>Pegas</b> brand and the old bicycle was brought to life in a new form, by an independent project, so that children of all ages can enjoy it again.</string>
+    <!-- Text displayed as the title of the Contact section [CHAR LIMIT=20] -->
+    <!-- Text displayed as the title of the Website in the Contact section [CHAR LIMIT=12] -->
+    <string name="website_title">Website</string>
+    <!-- Text displayed as the web address of the website [CHAR LIMIT=NONE] -->
+    <string name="url">"bicicletapegas.ro  "</string>
+    <!-- Text displayed on the button of the website section [CHAR LIMIT=20] -->
+    <string name="visit">Visit</string>
+    <!-- Text displayed as the title of the Address in the Contact section [CHAR LIMIT=20] -->
+    <string name="address_title">Address</string>
+    <!-- Text displayed as the content of the Address in the Contact section [CHAR LIMIT=NONE] -->
+    <string name="address_content">144—146 Vasile Lascăr Street, 2nd District, Bucharest</string>
+    <!-- Text displayed on the button of the address section [CHAR LIMIT=20] -->
+    <string name="directions">Directions</string>
+    <!-- Text displayed as the title of the Phone in the Contact section [CHAR LIMIT=20]-->
+    <string name="phone_title">Phone Number</string>
+    <!-- Text displayed as the phone number in the Contact section [CHAR LIMIT=NONE]-->
+    <string name="phone" translatable="false">(+40) 759 044 801</string>
+    <!-- Text displayed on the button of the phone section [CHAR LIMIT=20] -->
+    <string name="call">Call us</string>
+    <!-- Text displayed as the title of the Social Networks section [CHAR LIMIT=20] -->
+    <string name="get_social">Let\'s get social</string>
+    <!-- Description of the Facebook icon image [CHAR LIMIT=NONE] -->
+    <string name="social_facebook">Pegas on Facebook</string>
+    <!-- Description of the Instagram icon image [CHAR LIMIT=NONE] -->
+    <string name="social_instagram">Pegas on Instagram</string>
+    <!-- Description of the Youtube icon image [CHAR LIMIT=NONE] -->
+    <string name="social_youtube">Pegas on YouTube</string>
+    <!-- Description of the Twitter icon image [CHAR LIMIT=NONE] -->
+    <string name="social_twitter">Pegas on Twitter</string>
+    <!-- Java strings -->
+    <!-- Google Maps address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="pegas_map" translatable="false">https://www.google.ro/maps/place/Atelierele+Pegas/@44.447274,26.1093463,17z/data=!3m1!4b1!4m5!3m4!1s0x40b1f8b531d38d37:0xeef602a597ecc822!8m2!3d44.447274!4d26.111535</string>
+    <!-- Phone number of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="phone_no" translatable="false">(+40) 759 044 801</string>
+    <!-- Phone label which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="phone_label" translatable="false">tel:</string>
+    <!-- Website address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="website_address" translatable="false">https://www.bicicletapegas.ro</string>
+    <!-- Facebook address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="facebook_page" translatable="false">https://www.facebook.com/n/?bicicletelepegas</string>
+    <!-- Instagram address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="instagram_page" translatable="false">http://instagram.com/_u/bicicletelepegas</string>
+    <!-- Youtube address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="youtube_channel" translatable="false">https://www.youtube.com/channel/UCUIdnDBRHC9I05oIaqo7Zug</string>
+    <!-- Twitter address of the shop which will open in the specific app [CHAR LIMIT=NONE]-->
+    <string name="twitter_account" translatable="false">https://twitter.com/BicicletaPegas1</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- XML strings -->
+    <!-- Title of the app [CHAR LIMIT=12] -->
+    <string name="app_name">PrezentarePegas</string>
+    <!-- Description of the slider [CHAR LIMIT=NONE] -->
+    <string name="content_desc_slider">Slider Imagini</string>
+    <!-- Description of the logo image [CHAR LIMIT=NONE] -->
+    <string name="content_desc_logo">Logo Pegas</string>
+    <!-- Text displayed as the slogan of the header section [CHAR LIMIT = 20] -->
+    <string name="slogan_1">Creat în 1972</string>
+    <!-- Text displayed as the slogan of the header section [CHAR LIMIT = 20] -->
+    <string name="slogan_2">Reinventat în 2012</string>
+    <!-- Text displayed as the title of the About section [CHAR LIMIT=20] -->
+    <string name="title_about">Povestea Bicicletei Pegas</string>
+    <!-- Text displayed as the content of the About section [CHAR LIMIT=NONE] -->
+    <string name="presentation">A început cu un cadru de bicicletă construit într-o fabrică de armament, la Zărnești. \n\nDesignul era inspirat de muscle bike-urile americane și britanice, care la rândul lor imitau stilul unei motociclete chopper.\n\nSilueta Pegas-ului, cu șa lungă și coarne, avea să devină pentru mii de copii din România comunistă definiția cuvântului <b><i>bicicletă</i></b>. Și un pic mai mult. Un obiect cult, poate chiar cel care definește cuvântul <b><i>copilărie</i></b> pentru toți cei care au învățat să meargă pe bicicletă între anii ’70 și ’80. \n\nDupă ’89 Pegas a dispărut de pe piață. \n\n20 de ani mai târziu, un proiect independent a readus la viață marca Pegas și vechea bicicletă într-o nouă formă, pentru a se bucura din nou de ea copiii de toate vârstele.</string>
+    <!-- Text displayed as the title of the Contact section [CHAR LIMIT=20] -->
+    <!-- Text displayed as the title of the Website in the Contact section [CHAR LIMIT=12] -->
+    <string name="website_title">Website</string>
+    <!-- Text displayed as the web address of the website [CHAR LIMIT=NONE] -->
+    <string name="url">bicicletapegas.ro</string>
+    <!-- Text displayed on the button of the website section [CHAR LIMIT=20] -->
+    <string name="visit">Vizitează</string>
+    <!-- Text displayed as the title of the Address in the Contact section [CHAR LIMIT=20] -->
+    <string name="address_title">Adresa</string>
+    <!-- Text displayed as the content of the Address in the Contact section [CHAR LIMIT=NONE] -->
+    <string name="address_content">Strada Vasile Lascăr, Nr. 144—146, Sector 2, București</string>
+    <!-- Text displayed on the button of the address section [CHAR LIMIT=20] -->
+    <string name="directions">Indicații</string>
+    <!-- Text displayed as the title of the Phone in the Contact section [CHAR LIMIT=20]-->
+    <string name="phone_title">Număr Telefon</string>
+    <!-- Text displayed on the button of the phone section [CHAR LIMIT=20] -->
+    <string name="call">Sună-ne</string>
+    <!-- Text displayed as the title of the Social Networks section [CHAR LIMIT=20] -->
+    <string name="get_social">Hai să socializăm</string>
+    <!-- Description of the Facebook icon image [CHAR LIMIT=NONE] -->
+    <string name="social_facebook">Pegas pe Facebook</string>
+    <!-- Description of the Instagram icon image [CHAR LIMIT=NONE] -->
+    <string name="social_instagram">Pegas pe Instagram</string>
+    <!-- Description of the Youtube icon image [CHAR LIMIT=NONE] -->
+    <string name="social_youtube">Pegas pe YouTube</string>
+    <!-- Description of the Twitter icon image [CHAR LIMIT=NONE] -->
+    <string name="social_twitter">Pegas pe Twitter</string>
+</resources>

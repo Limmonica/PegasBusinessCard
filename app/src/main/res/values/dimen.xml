@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_16dp">16dp</dimen>
+    <dimen name="space_36dp">36dp</dimen>
+    <dimen name="slider_height">350dp</dimen>
+    <dimen name="max_elevation">8dp</dimen>
+    <dimen name="space_8dp">8dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="slogan_size">28sp</dimen>
+    <dimen name="button_text">20sp</dimen>
+    <dimen name="button_size">60dp</dimen>
+    <dimen name="content_size">14sp</dimen>
+    <dimen name="empty">0dp</dimen>
+    <dimen name="weight_1">1</dimen>
+
+</resources>
