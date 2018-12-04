@@ -14,9 +14,8 @@ The design had to include:
     * Address of the Business
     * Description of business
     * Hours of operation
-  Implemented intents, although it was not required.
-It was not required but I actually contacted an actual local business (Pegas Bycicles) and obtained their consent to build an app for them. 
-They were super nice and sent me all the photos I requested in high-definition. <3 I was so proud of my result - I was able to implement some features way ahead of learning about them.
+
+Implemented intents, although it was not required. It was not required but I actually contacted an actual local business (Pegas Bycicles) and obtained their consent to build an app for them. They were super nice and sent me all the photos I requested in high-definition. <3 I was so proud of my result - I was able to implement some features way ahead of learning about them.
 
 <img src="https://github.com/Limmonica/PegasBusinessCard/blob/master/Udacity-PegasBusinessCard-1.png"  width="250" height=""> <img src="https://github.com/Limmonica/PegasBusinessCard/blob/master/Udacity-PegasBusinessCard-2.png"  width="250" height=""> 
 <img src="https://github.com/Limmonica/PegasBusinessCard/blob/master/Udacity-PegasBusinessCard-3.png"  width="250" height=""> 
