@@ -1,4 +1,4 @@
-# Udacity Project no. 2: User Interface
+# User Interface
 
 # PegasBusinessCard
 
